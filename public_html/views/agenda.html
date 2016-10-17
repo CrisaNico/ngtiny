@@ -103,5 +103,8 @@
             <label for="exampleDate">Inserisci la data</label>
             <input type="date" class="form-control" data-date-format="dd/mm/yy" data-language="it" name="date" ng-model="day.date" placeholder="gg/mm/aaaa">
         </div> 
+        <div class="col-sm-12 text-center">
+        <button ng-click="saveDay(day.index)" class="btn btn-info">Salva</button>
+        </div>
     </form>
 </div>
